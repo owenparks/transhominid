@@ -1,0 +1,47 @@
+
+*** Critical bug: The "after taking a plotitem" rule does not apply correctly because the player doesn't have the item at the time the rule is running.
+
+
+- Player materializes body in cutscene the first time they enter the station
+    - Write TEST so that examine self and body part examining fail before entering and succeed afterwards?
+
+Neutrino emitter combined with heavy water canister?
+
+- Find object emitting/reflecting light at 475 nm wavelengths
+
+- Maybe the most important thing about traditions isn't that we understand them, it's that they link us to other people. 
+
+=====================================
+
+Of all the parents you'd been designated as a nascent consciousness, 9923 was by far the most sentimental. Maybe that was why she had always insisted you call her Nyna. She was by far the oldest being you'd ever met. Even before you knew her, the others had told you she'd been there for T-Day. Fearless and precocious and inquisitive, you boldly asked her every question you could think of. It wasn't so often that one encountered a being who'd actually been there, and you weren't going to waste a chance to find out every detail. She'd dodged your questions then, and hadn't really spoken much on the subject over the years. At first, you thought maybe she'd been teasing you. Next, that it had been frightening and painful, and she didn't want to scare you. Then, that she was tired of being asked that question by countless nascents everywhere she went, for thousands of years. Finally, you realized it was because it made her sad. When you asked her about this, she said simply, "The universe is ours now, and we have an eternity to explore and it's best that we look forward. But when you ask that of me, child, I am reminded of what we have lost."
+
+Your joining is only two days away. Nyna was the kind of parent who still insisted on measuring everything in old Terran solar days. You hadn't met your asignee yet, but there was no point in worrying about it-- it was only for the next two hundred years anyway. Still, it was your first joining, and Nyna wanted to make a big deal of it, saying there was a tradition in her family you had to follow. It sounded like a pain in the ass, but it seemed to mean a lot to her, so you went all the way back to Sol, and went corporeal, just for her.
+
+Not many people these days seem to really bother with old Terran history or customs, but it was a request from Nyna, and I wasn't going to refuse.
+
+=====================================
+
+Old Terran space stations are around, no one goes there
+People can turn corporeal, but don't bother
+Capable of lightspeed travel, have long attention spans as a result
+
+Singularity
+Great Diaspora
+
+
+
+=====================================
+
+Inventory
+
+mineral sample
+	igneous rock
+		something new
+	
+	
+chunk of dust
+	Halley's comet
+
+utopia planitia
+
+===============================

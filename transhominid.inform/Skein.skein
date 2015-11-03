@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02865110" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02865110"/>
+  <item nodeId="node-0x02865110">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">&#x000A;&#x000A;&#x000A;Parental Unit 9924 (you'd always just called her Nyna) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. "Your joining is only is only 3 cycles away," she'd said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles.&#x000A;&#x000A;Transhominid&#x000A;An Interactive Fiction by spanky&#x000A;Release 1 / Serial number 150826 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Lagrange Point&#x000A;This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.&#x000A;&#x000A;All the stars look unfamiliar this far from home, and you have to take a moment to reorient yourself to the Milky Way's magnetic north.&#x000A;&#x000A;To the east, you see a large hangar bay leading to the interior of the station.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">NO</temporary>
+    <children>
+      <child nodeId="node-0x02884F20"/>
+      <child nodeId="node-0x02865CC8"/>
+      <child nodeId="node-0x02871708"/>
+      <child nodeId="node-0x02873818"/>
+      <child nodeId="node-0x028860A0"/>
+      <child nodeId="node-0x02886110"/>
+      <child nodeId="node-0x02886570"/>
+      <child nodeId="node-0x02887120"/>
+      <child nodeId="node-0x02887430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02884F20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&#x000A;Lagrange Point&#x000A;This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.&#x000A;&#x000A;All the stars look unfamiliar this far from home, and you have to take a moment to reorient yourself to the Milky Way's magnetic north.&#x000A;&#x000A;To the east, you see a large hangar bay leading to the interior of the station.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865C58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865C58">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     Nothing.&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Substance predating the Terran system&#x000A;     Matter radiating in the 600 TeraHertz range&#x000A;     Material younger than yourself&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x02865CC8">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">It's an asteroid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x02865D38"/>
+      <child nodeId="node-0x0286DE88"/>
+      <child nodeId="node-0x0286E930"/>
+      <child nodeId="node-0x0286EE78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02865D38">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">&#x000A;Lagrange Point&#x000A;This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit for a tour. There was something lonely about the structure, an abandoned museum forever trapped in stasis. The water in your eyes begins to evaporate in the low pressure of space, producing a curious feeling.&#x000A;&#x000A;Inside the station is a hangar bay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286DC50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286DC50">
+    <command xml:space="preserve">go inside the statin</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286DCC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286DCC0">
+    <command xml:space="preserve">go inside the station</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x0286DE88">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see chunk of Terran obsidian here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286E388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286E388">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You see nothing special about chunk of Terran obsidian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286E8C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286E8C0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(chunk of Terran obsidian)&#x000A;You see nothing special about chunk of Terran obsidian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+  </item>
+  <item nodeId="node-0x0286E930">
+    <command xml:space="preserve">ls</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EAF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EAF8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see a Terran obsidian rock here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EB98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EB98">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286ED08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286ED08">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EE08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EE08">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Terran obsidian rock&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x0286EE78">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a chunk of asteroid, solar wind and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EEE8"/>
+      <child nodeId="node-0x0286F428"/>
+      <child nodeId="node-0x02871318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EEE8">
+    <command xml:space="preserve">x asteroid</command>
+    <result xml:space="preserve">It's an asteroid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EF58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EF58">
+    <command xml:space="preserve">take asteroid</command>
+    <result xml:space="preserve">Woo&#x000A;Woo&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286EFC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286EFC8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     chunk of asteroid&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Matter radiating in the 600 TeraHertz range&#x000A;     Material younger than yourself&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F038"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F038">
+    <command xml:space="preserve">x solar wind</command>
+    <result xml:space="preserve">Particles in a superheated plasma expelled by the dying star of the Sol system.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F0A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F0A8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see free hydrogen and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F118"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F118">
+    <command xml:space="preserve">take free hydrogen</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F188">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F1F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F1F8">
+    <command xml:space="preserve">take hydrogen</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F268">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F2D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F2D8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     chunk of asteroid&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Matter radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F348">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F3B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F3B8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     chunk of asteroid&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Matter radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x0286F428">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F498">
+    <command xml:space="preserve">take chunk</command>
+    <result xml:space="preserve">Woo&#x000A;Woo&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F508">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see solar wind and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x0286F578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0286F578">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     chunk of asteroid&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871158">
+    <command xml:space="preserve">drop rock</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x028711C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028711C8">
+    <command xml:space="preserve">drop chunk</command>
+    <result xml:space="preserve">Woo&#x000A;Woo&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871238">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     Nothing.&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     A relic&#x000A;     Object radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x028712A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028712A8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a chunk of asteroid, solar wind and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+  </item>
+  <item nodeId="node-0x02871318">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see Terran obsidian here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871388">
+    <command xml:space="preserve">take terran</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x028713F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028713F8">
+    <command xml:space="preserve">drop terran</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871468">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x028714D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028714D8">
+    <command xml:space="preserve">drop terran</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871548">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x028715B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028715B8">
+    <command xml:space="preserve">take terran</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871628">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Terran obsidian&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871698">
+    <command xml:space="preserve">x terran</command>
+    <result xml:space="preserve">You see nothing special about Terran obsidian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+  </item>
+  <item nodeId="node-0x02871708">
+    <command xml:space="preserve">take roc</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871778">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x028717E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028717E8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02871858"/>
+      <child nodeId="node-0x028735E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02871858">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x028718C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028718C8">
+    <command xml:space="preserve">take solar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873118"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873118">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873188">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x028731F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028731F8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873268">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a Cherenkov emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x028732D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028732D8">
+    <command xml:space="preserve">drop something</command>
+    <result xml:space="preserve">(the rock)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873348">
+    <command xml:space="preserve">drop something</command>
+    <result xml:space="preserve">Which do you mean, the rock or the Cherenkov emitter?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x028733B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028733B8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     A relic&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873428">
+    <command xml:space="preserve">drop solar</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873498">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     Nothing.&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     A relic&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873508">
+    <command xml:space="preserve">take solar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873578">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     A relic&#x000A;     Object reflecting light in the 450-490 nm range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+  </item>
+  <item nodeId="node-0x028735E8">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">A smooth, shiny piece of rock that glitters in the starlight.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873658">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x028736C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028736C8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  chunk of Terran obsidian&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873738">
+    <command xml:space="preserve">x chunk</command>
+    <result xml:space="preserve">A smooth, shiny piece of rock that glitters in the starlight.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="66">YES</temporary>
+    <children>
+      <child nodeId="node-0x028737A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028737A8">
+    <command xml:space="preserve">x chunk</command>
+    <result xml:space="preserve">A smooth, shiny piece of rock that glitters in the starlight.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="65">YES</temporary>
+  </item>
+  <item nodeId="node-0x02873818">
+    <command xml:space="preserve">take a rock</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02873888"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02873888">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a rock&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02885E00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02885E00">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">It's a chunk of Terran obsidian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02885E70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02885E70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a rock&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02885F50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02885F50">
+    <command xml:space="preserve">x a rock</command>
+    <result xml:space="preserve">You see nothing special about a rock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02885FC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02885FC0">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You see nothing special about Terran obsidian.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886030"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886030">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Terran obsidian&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+  </item>
+  <item nodeId="node-0x028860A0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     Nothing.&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     A relic&#x000A;     Object radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x02886110">
+    <command xml:space="preserve">x solar</command>
+    <result xml:space="preserve">Particles in a superheated plasma expelled by the dying star of the Sol system.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886180">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see free hydrogen here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x028861F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028861F0">
+    <command xml:space="preserve">take free</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886260"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886260">
+    <command xml:space="preserve">drop free</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x028862D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028862D0">
+    <command xml:space="preserve">take hydrogen</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886340">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  free hydrogen&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x028863B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028863B0">
+    <command xml:space="preserve">drop hyd</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886420">
+    <command xml:space="preserve">drop hydrog</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886490">
+    <command xml:space="preserve">drop hydrogen</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02886500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02886500">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+  </item>
+  <item nodeId="node-0x02886570">
+    <command xml:space="preserve">x solar wind</command>
+    <result xml:space="preserve">Particles in a superheated plasma expelled by the dying star of the Sol system.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x028870B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028870B0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction. (he-&gt;be reaction FIXME&#x000A;&#x000A;You can see a rock, free hydrogen and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+  </item>
+  <item nodeId="node-0x02887120">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">&#x000A;Sun-Jupiter Lagrange Point 5&#x000A;Inside the station is a hangar bay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887190">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887200">
+    <command xml:space="preserve">enter station</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887270">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x028872E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028872E0">
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">&#x000A;Hangar Bay&#x000A;The hangar bay doors are open. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see solar wind here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887350">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">&#x000A;Sun-Jupiter Lagrange Point 5&#x000A;Inside the station is a hangar bay.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+    <children>
+      <child nodeId="node-0x028873C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028873C0">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="93">YES</temporary>
+  </item>
+  <item nodeId="node-0x02887430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Hangar Bay&#x000A;The hangar bay doors are open to the west. Outside, you can see the vacuum of space extending in every direction.&#x000A;&#x000A;You can see a rock, solar wind and a submerged emitter here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x028874A0"/>
+      <child nodeId="node-0x02887580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028874A0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887510">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x02887580">
+    <command xml:space="preserve">take rock</command>
+    <result xml:space="preserve">Renaming something borrowed&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x028875F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028875F0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     rock&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Artifact not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Object radiating in the 600 TeraHertz range&#x000A;     Material younger than yourself&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887660">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">A chunk broken from one of the many asteroids clustered around the Sun-Jupiter L5 point. This one is much older than the solar system itself, having formed light-years away in some distant stellar explosion over five billion years ago. It flew through the vast expanses of space between star systems and came to rest here, trapped for hundreds of thousands of years in the gravity well.&#x000A;&#x000A;Maybe I can finally take it home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x028876D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028876D0">
+    <command xml:space="preserve">take wind</command>
+    <result xml:space="preserve">Renaming something borrowed&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x02887740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02887740">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;     presolar grain&#x000A;     free hydrogen&#x000A;&#x000A;&#x000A;You are looking for:&#x000A;     Artifact not covered by Intergalactic Cultural Antiquities Convention&#x000A;     Object radiating in the 600 TeraHertz range&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+</Skein>
