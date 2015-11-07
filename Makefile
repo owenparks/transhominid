@@ -26,6 +26,11 @@ extensions:
 story:
 	cat transhominid.inform/Source/*.txt > transhominid.inform/Source/story.ni
 
-all: story interpreter extensions
+i7compile:
 	$(I7_COMPILER) -c $(PROJECT_NAME).inform
+
+critpathtest:
+	py.test tests/test.py
+
+all: story interpreter extensions i7compile critpathtest
 
