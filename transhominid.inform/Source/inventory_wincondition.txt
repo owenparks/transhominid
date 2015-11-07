@@ -1,0 +1,31 @@
+Section 3 - Inventory and Win Condition
+
+Instead of taking inventory:
+	Follow the self-inventory rule.
+
+This is the self-inventory rule:
+	Say "You are carrying:[line break]";
+	If the player is not carrying anything:
+		say "[tab]Nothing.[line break]";
+	If the player is carrying the somethingold:
+		say "[tab][somethingold][line break]";
+	If the player is carrying the somethingnew:
+		say "[tab][somethingnew][line break]";
+	If the player is carrying the somethingborrowed:
+		say "[tab][somethingborrowed][line break]";
+	If the player is carrying the somethingblue:
+		say "[tab][somethingblue][line break]";
+	If the player has four plotitems:
+		End the story saying "YOU WIN";
+	Otherwise:
+		say "[paragraph break]You are looking for:[line break]";
+		If the player is not carrying the somethingborrowed:
+			say "[tab]Artifact not covered by Intergalactic Cultural Antiquities Convention[line break]";
+		If the player is not carrying the somethingold:
+			say "[tab]Substance predating the Terran system[line break]";
+		If the player is not carrying the somethingblue:
+			say "[tab]Object radiating in the 600 TeraHertz range[line break]";
+		If the player is not carrying the somethingnew:
+			say "[tab]Material younger than yourself[line break]";
+
+

@@ -23,6 +23,9 @@ interpreter:
 extensions:
 	rsync -r $(PROJECT_NAME).extensions/ $(I7_EXTENSION_DIR)
 
-all: interpreter extensions
+story:
+	cat transhominid.inform/Source/*.txt > transhominid.inform/Source/story.ni
+
+all: story interpreter extensions
 	$(I7_COMPILER) -c $(PROJECT_NAME).inform
 

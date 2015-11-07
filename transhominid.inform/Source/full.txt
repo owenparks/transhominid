@@ -1,0 +1,86 @@
+"Transhominid" by spanky
+
+[Include Title Page by Jon Ingold.]
+Include Exit Lister by Eric Eve.
+
+
+Section 1 - Cold Open
+
+[CHANGE THE FOLLOWING LINE FOR DEBUGGING]
+Debug_on is a truth state that varies. Debug_on is usually false.
+Logging_on is a truth state that varies. Logging_on is usually false.
+
+When play begins:
+	If logging_on is true:
+		try switching the story transcript on.
+
+Section 2 - Player Setup
+
+When play begins:
+	say "Parental Unit 9924 (you'd always just called her Nyna) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. 'Your joining is only is only 3 cycles away,' she'd said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles.";
+    now the player is in Lagrange Point.
+
+The description of the player is "The tactile and auditory sensations take the most getting used to, but it takes only seconds to start filtering out the noise. How did anyone live like this for a day, let alone for millions of years?".
+Eyes are part of the player.
+Body is part of the player.
+Hands are a part of the player.
+Feet are a part of the player.
+Ears are a part of the player.
+[TODO: More body parts]
+
+
+Chapter 5 - Space
+
+Space is a region.
+
+Section 1 - Station Exterior
+
+Lagrange Point is a room. The description is "This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.[paragraph break]All the stars look unfamiliar this far from home, and you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station."
+
+Somethingnew is in the Lagrange Point.
+
+[The sun is scenery in the Station Exterior. The description is "It's been burning helium for a few thousand years now. You've never really liked red giants."
+
+The earth is scenery in the Station Exterior. The description is "One of ".]
+
+Section 2 - Hangar Bay
+
+Hangar Bay is a room. It is east of the Lagrange Point. The description is "A wall panel displays a status readout.[paragraph break]The hangar bay doors are open to the west. Outside, you can see the vacuum of space extending in every direction.".
+
+The wall panel is scenery in the Hangar Bay. The description is "You look at the black glass panel and read the glowing blue numbers on it. Everything had been kept the way it had been prior to T-Day. Artificial gravity was still on, station life support was providing a 3:1 nitrogen/oxygen mixture for your body to breathe, and all internal compartments were pressurized to 101.3 kPa.".
+
+[TODO: examining list of stars and stellar objects visible from the station]
+[TODO: Exit Lister extension]
+[TODO: Nyna was a miner here on T-Day?]
+[TODO: Earth has been moved a long time ago]
+
+[TODO: create region for scenery that is space]
+
+Elevator Shaft is a room. The description is "You walk to a set of thick, gray steel doors that gape open, and peer inside. A long, empty vertical tunnel stretches below you as far as your eyes can see, and then extends into the darkness. You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember the stories Nyna used to tell about her youth and rock concerts, and marvel at the idea that you just created music.".
+
+[TODO: Carry out singing]
+[TODO: Carry out hints]
+
+Section 3 - Docking Control Room
+
+Docking Control Room is a room. It is north of the Hangar Bay.
+
+Main Lobby is a room. It is south of the Hangar Bay.
+
+Crew Quarters is a room. It is south of the Main Lobby.
+
+Elevator Shaft is a room. It is east of the Main Lobby.
+
+Section 3 - Reactor Core
+
+Reactor Core is a room. It is below the elevator shaft.
+
+
+Section 4 - Typography
+
+tab is some text that varies. tab is usually "     ".
+
+Section Z - Testing
+
+Test me with "take wind / e / take asteroid / s / s / take rock / n / e / d / take emitter / inv".
+
