@@ -1,0 +1,13 @@
+Section 1 - Station Exterior
+
+Lagrange Point is a room. The description is "This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.[paragraph break]The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station."
+
+Somethingnew is in the Lagrange Point.
+
+The sun is in the Lagrange Point. The sun is scenery. The description is "It's been burning helium for a few thousand years now. You've never really liked red giants."
+The earth is in the Lagrange Point. The earth is scenery. The description is "The third planet in the Sol System. They say it used to be a brilliant shade of blue flecked with white, 'Terra, jewel of the cosmos.' You feel an intense pang of guilt at never having visited, but it held no real meaning for you. For a moment, you consider going just because you know it would make Nina happy. The fancy leaves as suddenly as it came, your discomfort at the though of having to tread Earth's hallowed ground far outweighing any sense of filial duty."
+
+Jupiter is in the Lagrange Point. Jupiter is scenery. The description is "The enormous gas giant sits silently underneath the station, its surface swirling with eddies and storms. Nyna had said that back before T-Day, The Great Red Spot was one of Jupiter's most defining atmospheric features. There was no trace of it now, having been buffeted and consumed by other storms over the many eons that had passed.". 
+The planets are in the Lagrange Point. The planets are scenery. The description is "You always had trouble remembering the old names of the planets in the Sol System. Except for Terra, obviously. And you supposed Jupiter was hard to miss as well, at least from this vantage point."
+[TODO: examining list of stars and stellar objects visible from the station]
+

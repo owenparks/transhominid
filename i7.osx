@@ -498,6 +498,7 @@ sub compile {
     }
     print "***I7 compilation command: $cmd***\n";
     my $rc = system($cmd);
+    print "***return code is $rc***\n";
     return $rc if ($rc);
     return 1 unless ((-f $inffile) && !(-z $inffile)); 
     # The pager eats a failed return code....

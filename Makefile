@@ -9,12 +9,16 @@ ifeq ($(UNAME), Darwin)
 endif
 
 # Needed because these targets are not actual files
-.PHONY: interpreter extensions all
+.PHONY: clean cleanstory interpreter extensions story i7compile critpathtest all
 .DEFAULT_GOAL := all
 
-clean:
+clean: cleanstory
 	(cd interpreter/glulxe && make clean)
 	(cd interpreter/cheapglk && make clean)
+
+cleanstory:
+	-rm transhominid.inform/Source/story.ni
+	-rm transhominid.inform/Build/output.gblorb
 
 interpreter:
 	$(MAKE) -C interpreter/cheapglk
@@ -23,14 +27,15 @@ interpreter:
 extensions:
 	rsync -r $(PROJECT_NAME).extensions/ $(I7_EXTENSION_DIR)
 
-story:
+story: cleanstory
 	cat transhominid.inform/Source/*.txt > transhominid.inform/Source/story.ni
 
+.PHONY: i7compile
 i7compile:
-	$(I7_COMPILER) -c $(PROJECT_NAME).inform
+	$(I7_COMPILER) -c $(PROJECT_NAME).inform 
 
-critpathtest:
+critpathtest: i7compile
 	py.test tests/test.py
 
-all: story interpreter extensions i7compile critpathtest
+all: interpreter extensions story i7compile critpathtest
 
