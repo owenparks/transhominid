@@ -61,8 +61,6 @@ understand the Title4 property as describing a hydrogen.
 
 [DESCRIPTION]
 Somethingnew is a hydrogen. 
-Title1 of somethingnew is "solar".
-Title2 of somethingnew is "wind".
 The description of somethingnew is "Particles in a superheated plasma expelled by the dying star of the Sol system.".
 Understand "particles" as somethingnew.
 Understand "plasma" as somethingnew.
@@ -93,9 +91,6 @@ understand the Title4 property as describing a plaque.
 [DESCRIPTION]
 Somethingborrowed is a plaque. The description is "A smooth, shiny shard of black rock that glitters in the starlight. Some words are inscribed into its surface:[paragraph break][tab][tab]'To my dearest Ninotchka, I shall love you forever and a day'.[paragraph break]You stare at the words for a long time, wondering how you never realized, never asked about anything like this. You feel like you're intruding on some long gone moment of her life, like you're rifling through a photo album without permission. Had she meant you to find this? Was this part of the reason she'd sent you here? You make up your mind not to ask about it. Maybe it was better this way, to let her have these secrets as a parent than have to face a part of her past in front of a child. It was silly to have only thought of her as s mother, as though she'd never had a life outside of you and the other fledglings.[paragraph break]You feel a ripple travel over your skin from shoulders to fingertips, and look down at your arm to see goosebumps."
 Somethingborrowed is in the Crew Quarters.
-Title1 of somethingborrowed is "a".
-Title2 of somethingborrowed is "shiny".
-Title3 of somethingborrowed is "rock".
 
 Section 4 - Something Blue (Cherenkov Emitter)
 

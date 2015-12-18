@@ -41,7 +41,6 @@ Hangar Bay is a room. It is east of the Lagrange Point. The description is "A wa
 
 The wall panel is scenery in the Hangar Bay. The description is "You look at the black glass panel and read the glowing blue numbers on it. Everything had been kept the way it had been prior to T-Day. Artificial gravity was still on, station life support was providing a 3:1 nitrogen/oxygen mixture for your body to breathe, and all internal compartments were pressurized to 101.3 kPa.".
 
-[TODO: Exit Lister extension]
 [TODO: Nyna was a miner here on T-Day?]
 
 [TODO: create region for scenery that is space]
@@ -57,7 +56,7 @@ Main Lobby is a room. It is south of the Hangar Bay.
 The description of Main Lobby is "".
 
 Elevator Shaft is a room. It is east of the Main Lobby.
-The description of Elevator Shaft is "You walk to a set of thick, gray steel doors that gape open, and peer inside. A long, empty vertical tunnel stretches below you as far as your eyes can see, and then extends into the darkness. You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember the stories Nyna used to tell about her youth and rock concerts, and marvel at the idea that you just created music.".
+The description of Elevator Shaft is "You walk to a set of thick, gray steel doors that gape open, and peer inside. A long, empty vertical tunnel stretches below you as far as your eyes can see, and then extends into the darkness. You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember the vivid stories Nyna used to tell about her youth and the searing chords of Jovian rock concerts, and marvel at the idea that you just created music.".
 
 Section 3 - Reactor Core
 
