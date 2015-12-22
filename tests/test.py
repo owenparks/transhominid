@@ -6,7 +6,7 @@ e
 take asteroid
 s
 s
-take rock
+take volcanic
 n
 e
 d
