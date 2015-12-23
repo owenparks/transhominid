@@ -1,1 +1,4 @@
+- Carry out writing a paragraph about solar wind
+
 - Makefile doesn't fail properly if there are Inform7 errors
+

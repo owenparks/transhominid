@@ -1,11 +1,9 @@
-"Transhominid" by spanky
+"Transhominid" by Meredith Hollander.
+The story headline is "A meditation on transcendence and tradition"
 
 [Include Title Page by Jon Ingold.]
 Include Exit Lister by Eric Eve.
 Include Basic Screen Effects by Emily Short.
-
-
-Section 1 - Cold Open
 
 [CHANGE THE FOLLOWING LINE FOR DEBUGGING]
 Debug_on is a truth state that varies. Debug_on is usually false.
@@ -15,21 +13,28 @@ When play begins:
 	If logging_on is true:
 		try switching the story transcript on.
 
-Section 2 - Player Setup
+Section 1 - Cold Open
+
 
 When play begins:
-	say "Parental Unit 9924 (you'd always just called her Nyna) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. 'Your joining is only is only 3 cycles away,' she'd said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles.";
-    now the player is in Lagrange Point.
+	say "Parental Unit 9924 (you'd always just called her Nyna) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. 'Your joining is only is only 3 cycles away,' she'd said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...";
+    wait for any key;
+    clear the screen;
+    [pause the game;]
+    [now the player is in Lagrange Point.]
+
+Section 2 - Player Setup
 
 The description of the player is "The tactile and auditory sensations take the most getting used to, but it takes only seconds to start filtering out the noise. How did anyone live like this for a day, let alone for millions of years?".
-Understand "eyes" as yourself.
+Understand "belly button" as yourself.
 Understand "body" as yourself.
-Understand "hands" as yourself. 
+Understand "ears" as yourself.
+Understand "eyes" as yourself.
 Understand "fingers" as yourself. 
 Understand "feet" as yourself. 
-Understand "toes" as yourself.
+Understand "hands" as yourself. 
 Understand "nose" as yourself.
-Understand "ears" as yourself.
+Understand "toes" as yourself.
 
 Chapter 5 - Space
 

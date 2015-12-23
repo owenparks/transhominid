@@ -1,7 +1,8 @@
 import subprocess
 from subprocess import Popen, PIPE, STDOUT
 
-CRITPATH = """take wind
+CRITPATH = """\n
+take wind
 e
 take asteroid
 s

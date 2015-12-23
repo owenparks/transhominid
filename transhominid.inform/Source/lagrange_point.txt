@@ -2,6 +2,7 @@ Section 1 - Station Exterior
 
 Lagrange Point is a room. The description is "This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn't look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.[paragraph break]The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station."
 
+The player is in the Lagrange Point.
 Somethingnew is in the Lagrange Point.
 
 Jupiter is in the Lagrange Point. Jupiter is scenery. The description is "The enormous gas giant sits silently underneath the station, its surface swirling with eddies and storms. Nyna had said that back before T-Day, The Great Red Spot was one of Jupiter's most defining atmospheric features. There was no trace of it now, having been buffeted and consumed by other storms over the many eons that had passed.". 
