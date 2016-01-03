@@ -1,6 +1,8 @@
 "Transhominid" by Meredith Hollander.
 The story headline is "A meditation on transcendence and tradition"
 
+Release along with a website and interpreter.
+
 [Include Title Page by Jon Ingold.]
 Include Exit Lister by Eric Eve.
 Include Basic Screen Effects by Emily Short.
@@ -15,9 +17,8 @@ When play begins:
 
 Section 1 - Cold Open
 
-
 When play begins:
-	say "Parental Unit 9924 (you'd always just called her Nyna) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. 'Your joining is only is only 3 cycles away,' she'd said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...";
+	say "Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...";
     wait for any key;
     clear the screen;
     [pause the game;]

@@ -2,3 +2,6 @@
 
 - Makefile doesn't fail properly if there are Inform7 errors
 
+- Make cleaner I7 compiler invocation along the lines of that one dude on intfiction.org.
+    - Basically, we shouldn't require the modified version of the ni script at all
+
