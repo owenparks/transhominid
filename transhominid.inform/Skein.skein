@@ -1,28 +1,80 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x4fa2c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3a7dd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4fa2c0" />
-  <item nodeId="node-0x4fa2c0">
+  <activeNode nodeId="node-0x3a7dd0" />
+  <item nodeId="node-0x3a7dd0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Parental Unit 9924 (you&apos;d always just called her Nyna) was the sentimental type. Maybe that&apos;s why she doted on you most, of all the fledglings in your pod. &quot;Your joining is only is only 3 cycles away,&quot; she&apos;d said, and it would mean a great deal to her if you would take the Journey and collect a few things before you came back. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles.
+Parental Nine-Nine-Two-Four (you&apos;d always just called her Nina) was the sentimental type. Maybe that&apos;s why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she&apos;d said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...
 
+(Press any key to continue)
 Transhominid
-An Interactive Fiction by spanky
-Release 1 / Serial number 150826 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+A meditation on transcendence and tradition by Meredith Hollander
+Release 1 / Serial number 160103 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Lagrange Point
-This was where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it didn&apos;t look like anyone had ever bothered to visit. There was something lonely about the hulking metal structure, an abandoned museum, frozen in eternal stasis.
+This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn&apos;t look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, pristinely in a stasis field.
 
-All the stars look unfamiliar this far from home, and you have to take a moment to reorient yourself to the Milky Way&apos;s magnetic north.
+The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way&apos;s magnetic north.
 
 To the east, you see a large hangar bay leading to the interior of the station.
 
+You can see solar wind here.
+
 &gt;</result>
+    <commentary xml:space="preserve">
+
+
+Parental Nine-Nine-Two-Four (you&apos;d always just called her Nina) was the sentimental type. Maybe that&apos;s why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she&apos;d said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...
+
+(Press any key to continue)
+Transhominid
+A meditation on transcendence and tradition by Meredith Hollander
+Release 1 / Serial number 160103 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Lagrange Point
+This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn&apos;t look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, pristinely in a stasis field.
+
+The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way&apos;s magnetic north.
+
+To the east, you see a large hangar bay leading to the interior of the station.
+
+You can see solar wind here.
+
+&gt;</commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">NO</temporary>
+    <temporary score="2">NO</temporary>
+    <children>
+      <child nodeId="node-0x1fa880" />
+    </children>
+  </item>
+  <item nodeId="node-0x1fa880">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lagrange Point
+This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn&apos;t look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, pristinely in a stasis field.
+
+The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way&apos;s magnetic north.
+
+To the east, you see a large hangar bay leading to the interior of the station.
+
+You can see solar wind here.
+
+&gt;</result>
+    <commentary xml:space="preserve">Lagrange Point
+This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn&apos;t look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, pristinely in a stasis field.
+
+The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way&apos;s magnetic north.
+
+To the east, you see a large hangar bay leading to the interior of the station.
+
+You can see solar wind here.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">NO</temporary>
   </item>
 </Skein>

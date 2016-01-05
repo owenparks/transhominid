@@ -7,6 +7,18 @@ Release along with a website and interpreter.
 Include Exit Lister by Eric Eve.
 Include Basic Screen Effects by Emily Short.
 
+Section - Game System Tweaks
+
+[Custom Undo Prohibited Response]
+Use Undo Prevention.
+The immediately undo rule response (A) is "Nina always said that it's better to think about what you will do differently in the future instead of what you should have done differently in the past. Regret is a cage, she'd told you, but resolve will set you free."
+
+[Custom prohibited save and load messages]
+After reading a command:
+	If the player's command matches "save" or the player's command matches "load":
+		say "Since T-Day, and the Diaspora, humans had learned wondrous things about themselves, and existence, and crossed great bounds of space in mere instants. Time, however, remained beyond your reach.";
+		stop the action;
+
 [CHANGE THE FOLLOWING LINE FOR DEBUGGING]
 Debug_on is a truth state that varies. Debug_on is usually false.
 Logging_on is a truth state that varies. Logging_on is usually false.
@@ -18,7 +30,7 @@ When play begins:
 Section 1 - Cold Open
 
 When play begins:
-	say "Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...";
+	say "Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...[paragraph break](Press any key to continue)";
     wait for any key;
     clear the screen;
     [pause the game;]
