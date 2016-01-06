@@ -7,6 +7,8 @@ This is the self-inventory rule:
 	Say "You are carrying:[line break]";
 	If the player is not carrying anything:
 		say "[tab]Nothing.[line break]";
+	If the player is carrying the bottle:
+		say "[tab]bottle of water[line break]";
 	If the player is carrying the somethingold:
 		say "[tab][somethingold][line break]";
 	If the player is carrying the somethingnew:
@@ -27,5 +29,8 @@ This is the self-inventory rule:
 			say "[tab]Object radiating in the 600 TeraHertz range[line break]";
 		If the player is not carrying the somethingnew:
 			say "[tab]Material younger than yourself[line break]";
+			
+The examine containers rule is not listed in any rulebook.
 
 
+			

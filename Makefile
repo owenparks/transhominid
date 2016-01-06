@@ -28,7 +28,8 @@ extensions:
 	rsync -r $(PROJECT_NAME).extensions/ $(I7_EXTENSION_DIR)
 
 story: cleanstory
-	cat transhominid.inform/Source/*.txt > transhominid.inform/Source/story.ni
+	-rm transhominid.inform/Source/story.ni
+	find transhominid.inform/Source/ -iname '*.txt' | xargs cat > transhominid.inform/Source/story.ni
 
 .PHONY: i7compile
 i7compile:

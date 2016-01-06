@@ -11,13 +11,31 @@ Section - Game System Tweaks
 
 [Custom Undo Prohibited Response]
 Use Undo Prevention.
-The immediately undo rule response (A) is "Nina always said that it's better to think about what you will do differently in the future instead of what you should have done differently in the past. Regret is a cage, she'd told you, but resolve will set you free."
+The immediately undo rule response (A) is "Nina always said that it's better to think about what you will do differently in the future than dwell on what you could have done differently in the past. Regret is a cage, she'd told you, but resolve will set you free."
 
-[Custom prohibited save and load messages]
+
 After reading a command:
-	If the player's command matches "save" or the player's command matches "load":
+	[Custom prohibited save and load messages]
+	If the player's command matches "save" or the player's command matches "load" or the player's command matches "restore":
 		say "Since T-Day, and the Diaspora, humans had learned wondrous things about themselves, and existence, and crossed great bounds of space in mere instants. Time, however, remained beyond your reach.";
 		stop the action;
+
+Understand the command "dump" as something new. 
+Dumping is an action applying to one thing.
+Understand "dump [something]" as dumping.
+Understand "dump out [something]" as dumping.
+Understand the command "pour" as "dump".
+Understand the command "spill" as "dump".
+Understand the command "empty" as "dump".
+Understand the command "decant" as "dump".
+Carry out dumping:
+		say "That seems like it would be a waste.".
+		
+[Custom attacking message]
+The block attacking rule is not listed in any rulebook.
+
+Report attacking something:
+	say "You consider it for a moment with the giddy thrill of a child breaking the rules, but think better of it.[paragraph break]It had been a long time since any human had bothered with violence."
 
 [CHANGE THE FOLLOWING LINE FOR DEBUGGING]
 Debug_on is a truth state that varies. Debug_on is usually false.
@@ -30,15 +48,15 @@ When play begins:
 Section 1 - Cold Open
 
 When play begins:
-	say "Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...[paragraph break](Press any key to continue)";
+	say "FIXME replace with notes paragraph Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...[paragraph break](Press any key to continue)";
     wait for any key;
     clear the screen;
+	move the player to the Lagrange Point, without printing a room description;
     [pause the game;]
-    [now the player is in Lagrange Point.]
 
 Section 2 - Player Setup
 
-The description of the player is "The tactile and auditory sensations take the most getting used to, but it takes only seconds to start filtering out the noise. How did anyone live like this for a day, let alone for millions of years?".
+The description of the player is "Going corporeal isn't something you bother with often, but this particular errand requires it, at least for the moment. The tactile and auditory sensations take the most getting used to, but it takes only seconds to start filtering out the noise. How did anyone live like this for a day, let alone for millions of years?".
 Understand "belly button" as yourself.
 Understand "body" as yourself.
 Understand "ears" as yourself.
@@ -88,4 +106,5 @@ tab is some text that varies. tab is usually "     ".
 Section Z - Testing
 
 Test me with "take wind / e / take asteroid / s / s / take rock / n / e / d / take emitter / inv".
+Test bottle with "e / s / s / take bottle".
 
