@@ -1,7 +1,7 @@
 Chapter 4 - Plotitems
 
 A plotitem is a kind of supporter.
-Instead of dropping a plotitem:
+Instead of dropping something:
 	Say "You consider dropping it, and forgetting about the whole silly thing, but think better of it. Bringing back these objects had seemed so important to Nina, though you weren't quite sure why.";
 
 Section 1 - Something Old (Asteroid Fragment)
@@ -98,7 +98,7 @@ Section 4 - Something Blue (Cherenkov Emitter)
 
 neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. You've never held one before, and always imagined it would be much heavier.".
 
-bottle of clear liquid is a thing. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains only remaining sample of actual Terran water in the entire Sol system."
+bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains only remaining sample of actual Terran water in the entire Sol system."
 Understand "water" as bottle of clear liquid.
 
 Instead of opening the bottle:

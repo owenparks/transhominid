@@ -6,6 +6,7 @@ Release along with a website and interpreter.
 [Include Title Page by Jon Ingold.]
 Include Exit Lister by Eric Eve.
 Include Basic Screen Effects by Emily Short.
+[Include Custom Library Messages by Ron Newcomb.]
 
 Section - Game System Tweaks
 
@@ -13,13 +14,16 @@ Section - Game System Tweaks
 Use Undo Prevention.
 The immediately undo rule response (A) is "Nina always said that it's better to think about what you will do differently in the future than dwell on what you could have done differently in the past. Regret is a cage, she'd told you, but resolve will set you free."
 
-
 After reading a command:
 	[Custom prohibited save and load messages]
 	If the player's command matches "save" or the player's command matches "load" or the player's command matches "restore":
 		say "Since T-Day, and the Diaspora, humans had learned wondrous things about themselves, and existence, and crossed great bounds of space in mere instants. Time, however, remained beyond your reach.";
 		stop the action;
 
+After taking something:
+	say "You pick it up.".
+
+[FIXME: Move this to the bottle specific section?]
 Understand the command "dump" as something new. 
 Dumping is an action applying to one thing.
 Understand "dump [something]" as dumping.
@@ -48,7 +52,11 @@ When play begins:
 Section 1 - Cold Open
 
 When play begins:
-	say "FIXME replace with notes paragraph Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...[paragraph break](Press any key to continue)";
+	say "Of all the parents you'd been designated as a nascent consciousness, 9923 was by far the most sentimental. Maybe that was why she had always insisted you call her Nina. She was by far the oldest being you'd ever met. Even before you knew her, the others had told you she'd been there for T-Day. Fearless and precocious and inquisitive, you boldly asked her every question you could think of. It wasn't so often that one encountered a being who'd actually been there, and you weren't going to waste a chance to find out every detail. She'd dodged your questions then, and hadn't really spoken much on the subject over the years. At first, you thought maybe she'd been teasing you. Next, that it had been frightening and painful, and she didn't want to scare you. Then, that she was tired of being asked that question by countless nascents everywhere she went, for thousands of years. Finally, you realized it was because it made her sad. When you asked her about this, she said simply, 'The universe is ours now, and we have an eternity to explore and it's best that we look forward. But when you ask that of me, child, I am reminded of what we have lost.'
+	
+Your joining is only two days away. Nina was the kind of parent who still insisted on measuring everything in old Terran solar days. You hadn't met your assignee yet, but there was no point in worrying about it-- it was only for the next two hundred years anyway. Still, it was your first joining, and Nina wanted to make a big deal of it, saying there were rituals and traditions and so on that her family followed. It sounded like a boring waste of time, but it had seemed important to her. So you went all the way back to Sol, and went corporeal, just for her.
+	
+FIXME combine this replace with notes paragraph Parental Nine-Nine-Two-Four (you'd always just called her Nina) was the sentimental type. Maybe that's why she doted on you most, of all the fledglings in your pod. Your Joining is only is only .01 cycles away, she'd said, and it would mean a great deal to her if you would take the journey Home and collect a few things for the ceremony. It was silly that she insisted on following such an old tradition, but not nearly as silly as measuring time in old Terran solar cycles...[paragraph break](Press any key to continue)";
     wait for any key;
     clear the screen;
 	move the player to the Lagrange Point, without printing a room description;
@@ -90,14 +98,6 @@ Docking Control Room is a room. It is north of the Hangar Bay.
 
 Main Lobby is a room. It is south of the Hangar Bay.
 The description of Main Lobby is "".
-
-Elevator Shaft is a room. It is east of the Main Lobby.
-The description of Elevator Shaft is "You walk to a set of thick, gray steel doors that gape open, and peer inside. A long, empty vertical tunnel stretches below you as far as your eyes can see, and then extends into the darkness. You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember the vivid stories Nyna used to tell about her youth and the searing chords of Jovian rock concerts, and marvel at the idea that you just created music.".
-
-Section 3 - Reactor Core
-
-Reactor Core is a room. It is below the elevator shaft.
-The description of Reactor Core is "".
 
 Section 4 - Typography
 

@@ -1,5 +1,6 @@
 - Instead of open bottle
 - Place neutrino generator into bottle
+- Implement reactor room
 
 - Add docking control room to space so that all things in space are visible from there
 

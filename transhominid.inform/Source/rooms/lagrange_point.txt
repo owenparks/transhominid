@@ -1,3 +1,4 @@
+
 Section 1 - Station Exterior
 
 Lagrange Point is a room. The description is "This is where Nyna had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn't look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, pristinely in a stasis field.[paragraph break]The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station."
@@ -5,7 +6,7 @@ Lagrange Point is a room. The description is "This is where Nyna had said to go,
 The player is in the Lagrange Point.
 Somethingnew is in the Lagrange Point.
 
-Jupiter is in the Lagrange Point. Jupiter is scenery. The description is "The enormous gas giant dwarfs the mining station before you, its surface swirling with eddies and storms. Nyna had said that back before T-Day, The Great Red Spot was one of Jupiter's most defining atmospheric features. There's no trace of it now, having been buffeted and consumed by other storms over the many eons that had passed.". 
+Jupiter is in the Lagrange Point. Jupiter is scenery. The description is "The enormous gas giant dwarfs the mining station before you, its surface swirling with eddies and storms. Nyna had said that back before T-Day, The Great Red Spot was one of Jupiter's most defining atmospheric features. There's no trace of it now, having been buffeted and consumed by other storms over the many eons that had passed.".
 
 The sun is in the Lagrange Point. The sun is scenery. The description is "It's been burning helium for just a few thousand years now. You've never really liked red giants."
 
@@ -26,4 +27,3 @@ Understand "Terra" as Earth.
 Mining station is in the Lagrange Point. Mining station is scenery. The description is "The old mining station was built here in the early days of space travel, balanced precariously between gravity wells. It's a decrepit hulk cobbled together from ablative shielding and some unidentifiable gray metal. It clearly hadn't been built with aesthetics in mind. You wonder why Nina had sent you here, of all places."
 
 The Milky Way Galaxy is in the Lagrange Point. Milky Way Galaxy is scenery. The description is ""
-
