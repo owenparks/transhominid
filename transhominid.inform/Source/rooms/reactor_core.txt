@@ -4,3 +4,4 @@ Section 3 - Reactor Core
 Reactor Core is a room. It is below the elevator shaft.
 The description of Reactor Core is "".
 
+neutrino generator is in the Reactor Core.

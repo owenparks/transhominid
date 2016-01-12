@@ -1,5 +1,10 @@
 "Transhominid" by Meredith Hollander.
-The story headline is "A meditation on transcendence and tradition"
+The story title is "Transhominid".
+The story author is "Meredith Hollander".
+The story headline is "A meditation on transcendence and tradition".
+
+Rule for printing the banner text:
+	say "[bold type][story title][roman type][line break][story headline] by [story author][line break]";
 
 Release along with a website and interpreter.
 
@@ -85,7 +90,7 @@ Hangar Bay is a room. It is east of the Lagrange Point. The description is "The 
 
 The wall panel is scenery in the Hangar Bay. The description is "You look at the black glass panel and read the glowing blue numbers on it. Everything had been kept the way it had been prior to T-Day. Artificial gravity was still on, station life support was providing a 3:1 nitrogen/oxygen mixture for your body to breathe, and all internal compartments were pressurized to 101.3 kPa.".
 
-[TODO: Nyna was a miner here on T-Day?]
+[TODO: Nina was a miner here on T-Day?]
 
 [TODO: create region for scenery that is space]
 

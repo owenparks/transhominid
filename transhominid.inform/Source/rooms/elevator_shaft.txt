@@ -1,8 +1,6 @@
 Elevator Shaft is a room. It is east of the Main Lobby.
 The description of Elevator Shaft is "You walk to a set of thick, gray steel doors that gape open, and peer inside. A long, empty vertical tunnel stretches below you as far as your eyes can see, and then extends into the darkness. You're awestruck by the way every little sound you make reflects and echoes around the huge space.".
 
-[]
-
 Understand the command "shout" as something new. 
 Shouting is an action applying to nothing.
 Understand "shout" as shouting.
@@ -14,5 +12,7 @@ Understand the command "talk" as "shout".
 Understand the command "scream" as "shout".
 
 Carry out shouting:
-  say You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember Nina's vivid stories about the screaming crowds and searing chords of Jovian rock concerts in her youth, and marvel at the idea that you just created music.".
+  say "You call out, the sound echoing up and down the metal structure, sound waves colliding and reflecting off each other, a dissonant symphony. You stand in wonder for a moment, and remember Nina's vivid stories about the screaming crowds and searing chords of Jovian rock concerts in her youth, and marvel at the idea that you just created music.";
   say "";
+
+[TODO: examine shaft, examine cables (no cables), examine walls, look down, look up]

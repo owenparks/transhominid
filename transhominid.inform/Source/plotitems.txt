@@ -96,7 +96,6 @@ Section 4 - Something Blue (Cherenkov Emitter)
 
 [CHERENKOV EMITTER - Something blue]
 
-neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. You've never held one before, and always imagined it would be much heavier.".
 
 bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains only remaining sample of actual Terran water in the entire Sol system."
 Understand "water" as bottle of clear liquid.
@@ -107,6 +106,9 @@ Instead of closing the bottle:
 	say "You carefully tighten the cap."
 Instead of drinking the bottle:
 	try dumping the bottle.
+	
+neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.".
+
 	
 An emitter is a kind of plotitem.  A emitter is always portable.
 A emitter has some indexed text called Title1.  
@@ -161,6 +163,7 @@ This is the rename somethingold rule:
 		Otherwise if the player has exactly four plotitems:
 			now Title1 of somethingold is "something";
 			now Title2 of somethingold is "old";
+			Now Title3 of somethingold is "";
 
 This is the rename somethingnew rule:
 	If the player does not have the somethingnew:
@@ -230,4 +233,3 @@ After taking a plotitem:
 After dropping a plotitem:
 	Follow the renaming plotitem rules;
 	Continue the action.
-
