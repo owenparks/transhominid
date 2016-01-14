@@ -1,5 +1,5 @@
-- Instead of open bottle
-- Place neutrino generator into bottle
+===== Content =====
+
 - Implement reactor room
     - Implement neutrino generator
 
@@ -7,8 +7,9 @@
 
 - Carry out writing a paragraph about solar wind
 
-- Makefile doesn't fail properly if there are Inform7 errors
+===== Administrivia =====
 
+- Makefile doesn't fail properly if there are Inform7 errors
 - Make cleaner I7 compiler invocation along the lines of that one dude on intfiction.org.
     - Basically, we shouldn't require the modified version of the ni script at all
 

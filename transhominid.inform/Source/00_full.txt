@@ -22,7 +22,7 @@ The immediately undo rule response (A) is "Nina always said that it's better to 
 After reading a command:
 	[Custom prohibited save and load messages]
 	If the player's command matches "save" or the player's command matches "load" or the player's command matches "restore":
-		say "Since T-Day, and the Diaspora, humans had learned wondrous things about themselves, and existence, and crossed great bounds of space in mere instants. Time, however, remained beyond your reach.";
+		say "Since T-Day, and the Diaspora, humans had learned wondrous things about themselves, and existence, and crossed great bounds of space in mere instants. Time, however, remains beyond your reach.";
 		stop the action;
 
 After taking something:
@@ -112,4 +112,5 @@ Section Z - Testing
 
 Test me with "take wind / e / take asteroid / s / s / take rock / n / e / d / take emitter / inv".
 Test bottle with "e / s / s / take bottle".
+Test neutrino with "test bottle / n / e / d / take neutrino"
 

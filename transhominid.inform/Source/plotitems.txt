@@ -106,9 +106,22 @@ Instead of closing the bottle:
 	say "You carefully tighten the cap."
 Instead of drinking the bottle:
 	try dumping the bottle.
+
+Check inserting something into the bottle:
+	If the noun is not neutrino generator:
+		say "That doesn't seem like it would accomplish much.";
+		stop the action.
+		
+After inserting the neutrino generator into the bottle:
+	remove the bottle of clear liquid from play;
+	remove the neutrino generator from play;
+	now the player has the somethingblue;
+	say "TODO[line break]".
+	
+[FIXME: Do I want the refusal to be a check and the alternate text to be a report?]
+[FIXME: Possible bug with the items appearing on the ground here?]
 	
 neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.".
-
 	
 An emitter is a kind of plotitem.  A emitter is always portable.
 A emitter has some indexed text called Title1.  
@@ -132,7 +145,7 @@ A somethingblue is a emitter.
 A somethingblue is in the Reactor Core.
 Title1 of somethingblue is "submerged".
 Title2 of somethingblue is "emitter".
-The description of a somethingblue is "It's an emitter.".
+The description of a somethingblue is "The steady emission of charged neutrinos interacts with the contents of the bottle, creating electrons and muons. You stare, transfixed, at the beautiful blue glow of Cherenkov radiation.".
 
 [The announce items from multple object lists rule is not listed in any rulebook.]
 
@@ -152,11 +165,10 @@ This is the rename somethingold rule:
 		Now Title3 of somethingold is "asteroid";
 	Otherwise if the player has the somethingold:
 		If the player has exactly two plotitems:
-			now Title1 of somethingold is "presolar";
-			now Title2 of somethingold is "grain";
-			Now Title3 of somethingold is "";
+			now Title1 of somethingold is "interstellar";
+			now Title2 of somethingold is "solid";
+			Now Title3 of somethingold is "matter";
 		Otherwise if the player has exactly three plotitems:
-            [TODO: Make another name]
 			now Title1 of somethingold is "presolar";
 			now Title2 of somethingold is "grain";
 			Now Title3 of somethingold is "";
