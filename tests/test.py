@@ -1,6 +1,7 @@
 import subprocess
 from subprocess import Popen, PIPE, STDOUT
 
+# TODO: Maybe just make this a test in inform??
 CRITPATH = """\n
 take wind
 e
@@ -8,10 +9,12 @@ take asteroid
 s
 s
 take volcanic
+take bottle
 n
 e
 d
-take emitter
+take generator
+put generator in bottle
 inv\n"""
 # This stuff doesn't have to be here, it can be outlined in the game itself via "test critpath with <commands>"
 # when building complex paths and making fuzz tests, this may be what I eventually want to do

@@ -142,7 +142,6 @@ understand the Title3 property as describing a emitter.
 understand the Title4 property as describing a emitter.
 
 A somethingblue is a emitter. 
-A somethingblue is in the Reactor Core.
 Title1 of somethingblue is "submerged".
 Title2 of somethingblue is "emitter".
 The description of a somethingblue is "The steady emission of charged neutrinos interacts with the contents of the bottle, creating electrons and muons. You stare, transfixed, at the beautiful blue glow of Cherenkov radiation.".
