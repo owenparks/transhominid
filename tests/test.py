@@ -25,7 +25,7 @@ def run(script):
 
 def test_criticalpath():
     output = run(CRITPATH)
-    assert "*** YOU WIN ***" in output
+    assert "*** The End ***" in output
 
 if __name__ == "__main__":
     test_criticalpath()

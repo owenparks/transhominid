@@ -1,3 +1,4 @@
+
 Section 3 - Inventory and Win Condition
 
 Instead of taking inventory:
@@ -20,7 +21,7 @@ This is the self-inventory rule:
 	If the player is carrying the somethingblue:
 		say "[tab][somethingblue][line break]";
 	If the player has four plotitems:
-		End the story saying "YOU WIN";
+		End the story saying "[Wingametext]";
 	Otherwise:
 		say "[paragraph break]You are looking for:[line break]";
 		If the player is not carrying the somethingborrowed:
@@ -31,8 +32,7 @@ This is the self-inventory rule:
 			say "[tab]Object radiating in the 600 TeraHertz range[line break]";
 		If the player is not carrying the somethingnew:
 			say "[tab]Material younger than yourself[line break]";
-			
+
 The examine containers rule is not listed in any rulebook.
 
-
-			
+Wingametext is some text that varies. Wingametext is usually "*** The End ***".

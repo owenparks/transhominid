@@ -1,3 +1,4 @@
+
 Chapter 4 - Plotitems
 
 A plotitem is a kind of supporter.
@@ -7,8 +8,8 @@ Instead of dropping something:
 Section 1 - Something Old (Asteroid Fragment)
 
 An asteroid is a kind of plotitem.  A asteroid is always portable.
-An asteroid has some indexed text called Title1.  
-An asteroid has some indexed text called Title2.  [This allows two-word 
+An asteroid has some indexed text called Title1.
+An asteroid has some indexed text called Title2.  [This allows two-word
 titles.  It should be obvious how to expand it to allow longer ones...]
 An asteroid has some indexed text called Title3.
 An asteroid has some indexed text called Title4.
@@ -19,7 +20,7 @@ rule for printing the name of an asteroid (called r):
 	if Title3 of r is not empty, say " [Title3 of r]";
 	if Title4 of r is not empty, say " [Title4 of r]";
 	stop the action;
-	
+
 understand the Title1 property as describing an asteroid.
 understand the Title2 property as describing an asteroid.
 understand the Title3 property as describing an asteroid.
@@ -42,7 +43,7 @@ Section 2 - Something New (Hydrogen particle)
 
 [================ SOLAR WIND - Something new ]
 A hydrogen is a kind of plotitem.  A hydrogen is always portable.
-A hydrogen has some indexed text called Title1.  
+A hydrogen has some indexed text called Title1.
 A hydrogen has some indexed text called Title2.
 A hydrogen has some indexed text called Title3.
 A hydrogen has some indexed text called Title4.
@@ -53,14 +54,14 @@ rule for printing the name of a hydrogen (called r):
 	if Title3 of r is not empty, say " [Title3 of r]";
 	if Title4 of r is not empty, say " [Title4 of r]";
 	stop the action;
-	
+
 understand the Title1 property as describing a hydrogen.
 understand the Title2 property as describing a hydrogen.    [This lets the player refer to the paper by name, even if the title changes during play.]
 understand the Title3 property as describing a hydrogen.
 understand the Title4 property as describing a hydrogen.
 
 [DESCRIPTION]
-Somethingnew is a hydrogen. 
+Somethingnew is a hydrogen.
 The description of somethingnew is "Particles in a superheated plasma expelled by the dying star of the Sol system.".
 Understand "particles" as somethingnew.
 Understand "plasma" as somethingnew.
@@ -71,7 +72,7 @@ Section 3 - Something Borrowed (Engraved Plaque)
 
 [============== ROCK - Something borrowed ===========]
 A plaque is a kind of plotitem.  A plaque is always portable.
-A plaque has some indexed text called Title1.  
+A plaque has some indexed text called Title1.
 A plaque has some indexed text called Title2.
 A plaque has some indexed text called Title3.
 A plaque has some indexed text called Title4.
@@ -82,7 +83,7 @@ rule for printing the name of a plaque (called r):
 	if Title3 of r is not empty, say " [Title3 of r]";
 	if Title4 of r is not empty, say " [Title4 of r]";
 	stop the action;
-	
+
 understand the Title1 property as describing a plaque.
 understand the Title2 property as describing a plaque.
 understand the Title3 property as describing a plaque.
@@ -111,20 +112,20 @@ Check inserting something into the bottle:
 	If the noun is not neutrino generator:
 		say "That doesn't seem like it would accomplish much.";
 		stop the action.
-		
+
 After inserting the neutrino generator into the bottle:
 	remove the bottle of clear liquid from play;
 	remove the neutrino generator from play;
 	now the player has the somethingblue;
 	say "TODO[line break]".
-	
+
 [FIXME: Do I want the refusal to be a check and the alternate text to be a report?]
 [FIXME: Possible bug with the items appearing on the ground here?]
-	
+
 neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.".
-	
+
 An emitter is a kind of plotitem.  A emitter is always portable.
-A emitter has some indexed text called Title1.  
+A emitter has some indexed text called Title1.
 A emitter has some indexed text called Title2.
 A emitter has some indexed text called Title3.
 A emitter has some indexed text called Title4.
@@ -135,13 +136,13 @@ rule for printing the name of a emitter (called r):
 	if Title3 of r is not empty, say " [Title3 of r]";
 	if Title4 of r is not empty, say " [Title4 of r]";
 	stop the action;
-	
+
 understand the Title1 property as describing a emitter.
 understand the Title2 property as describing a emitter.
 understand the Title3 property as describing a emitter.
 understand the Title4 property as describing a emitter.
 
-A somethingblue is a emitter. 
+A somethingblue is a emitter.
 Title1 of somethingblue is "submerged".
 Title2 of somethingblue is "emitter".
 The description of a somethingblue is "The steady emission of charged neutrinos interacts with the contents of the bottle, creating electrons and muons. You stare, transfixed, at the beautiful blue glow of Cherenkov radiation.".
@@ -190,7 +191,7 @@ This is the rename somethingnew rule:
 		Otherwise if the player has exactly four plotitems:
 			now Title1 of somethingnew is "something";
 			now Title2 of somethingnew is "new";
-	
+
 This is the rename somethingborrowed rule:
 	If the player does not have the somethingborrowed:
 		Now Title1 of somethingborrowed is "volcanic";
@@ -226,7 +227,7 @@ This is the rename somethingblue rule:
 		Otherwise if the player has exactly four plotitems:
 			now Title1 of somethingblue is "something";
 			now Title2 of somethingblue is "blue";
-			
+
 The rename somethingold rule is listed in the renaming plotitem rules.
 The rename somethingnew rule is listed in the renaming plotitem rules.
 The rename somethingborrowed rule is listed in the renaming plotitem rules.
