@@ -35,4 +35,4 @@ This is the self-inventory rule:
 
 The examine containers rule is not listed in any rulebook.
 
-Wingametext is some text that varies. Wingametext is usually "*** The End ***".
+Wingametext is some text that varies. Wingametext is usually "The End".

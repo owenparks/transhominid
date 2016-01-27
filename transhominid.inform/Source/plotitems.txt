@@ -97,8 +97,7 @@ Section 4 - Something Blue (Cherenkov Emitter)
 
 [CHERENKOV EMITTER - Something blue]
 
-
-bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains only remaining sample of actual Terran water in the entire Sol system."
+bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains the only remaining sample of actual Terran water in the entire Sol system."
 Understand "water" as bottle of clear liquid.
 
 Instead of opening the bottle:
@@ -117,12 +116,12 @@ After inserting the neutrino generator into the bottle:
 	remove the bottle of clear liquid from play;
 	remove the neutrino generator from play;
 	now the player has the somethingblue;
+	Follow the renaming plotitem rules;
 	say "TODO[line break]".
 
-[FIXME: Do I want the refusal to be a check and the alternate text to be a report?]
 [FIXME: Possible bug with the items appearing on the ground here?]
 
-neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.".
+neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.[paragraph break]The rate of neutrino flow is high enough to create tiny flecks of light in the vitreous humour in your eyes. You wonder what kind of glow it would make if you dropped it in a larger quantity of water.".
 
 An emitter is a kind of plotitem.  A emitter is always portable.
 A emitter has some indexed text called Title1.

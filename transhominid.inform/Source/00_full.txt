@@ -11,9 +11,16 @@ Release along with a website and interpreter.
 [Include Title Page by Jon Ingold.]
 Include Exit Lister by Eric Eve.
 Include Basic Screen Effects by Emily Short.
+
 [Include Custom Library Messages by Ron Newcomb.]
 
 Section - Game System Tweaks
+
+[Custom Parser Error Message]
+The parser error internal rule response (A) is
+	"You aren't sure how to do that.".
+The parser error internal rule response (N) is
+	"You aren't sure how to do that.".
 
 [Custom Undo Prohibited Response]
 Use Undo Prevention.
@@ -84,11 +91,6 @@ Chapter 5 - Space
 
 Space is a region.
 
-Section 2 - Hangar Bay
-
-Hangar Bay is a room. It is east of the Lagrange Point. The description is "The first thing you notice about the hangar bay is that the metal floor is uncomfortably cold. Clearly, it hadn't been designed for people to walk in barefoot. A wall panel displays a status readout.[paragraph break]The hangar bay doors are open to the west. Outside, you can see the vacuum of space extending in every direction.".
-
-The wall panel is scenery in the Hangar Bay. The description is "You look at the black glass panel and read the glowing blue numbers on it. Everything had been kept the way it had been prior to T-Day. Artificial gravity was still on, station life support was providing a 3:1 nitrogen/oxygen mixture for your body to breathe, and all internal compartments were pressurized to 101.3 kPa.".
 
 [TODO: Nina was a miner here on T-Day?]
 
@@ -112,4 +114,4 @@ Section Z - Testing
 
 Test bottle with "e / s / s / take bottle".
 Test neutrino with "test bottle / n / e / d / take neutrino".
-Test me with "take wind / e / take chunk / e / s / take shard / take bottle / n / e / d / take generator / put generator in bottle / inv".
+Test me with "take wind / e / take asteroid / s / s / take volcanic / take bottle / n / e / d / take generator / put generator in bottle / inv".
