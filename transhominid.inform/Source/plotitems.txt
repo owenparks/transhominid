@@ -37,7 +37,7 @@ A somethingold is an asteroid.
 A somethingold is in the Hangar Bay.
 Title1 of somethingold is "rock".
 Title2 of somethingold is "".
-The description of a somethingold is "A chunk broken from one of the many asteroids clustered around the Sun-Jupiter L5 point. This one is much older than the solar system itself, having formed light-years away in some distant stellar explosion over five billion years ago. It flew through the vast expanses of space between star systems and came to rest here, trapped for hundreds of thousands of years in the gravity well.[paragraph break]Maybe I can finally take it home.".
+The description of a somethingold is "A chunk broken from one of the many asteroids clustered around the Sun-Jupiter L5 point. This one is much older than the solar system itself, having formed light-years away in some distant stellar explosion over five billion years ago. It flew through the vast expanses of space between star systems and came to rest here, trapped for hundreds of thousands of years in the Hangar Bay's gravity well.[paragraph break]Maybe you can finally help it find its way home.".
 
 Section 2 - Something New (Hydrogen particle)
 
@@ -62,9 +62,14 @@ understand the Title4 property as describing a hydrogen.
 
 [DESCRIPTION]
 Somethingnew is a hydrogen.
-The description of somethingnew is "Particles in a superheated plasma expelled by the dying star of the Sol system.".
+The description of somethingnew is "Charged particles in a superheated plasma expelled by the dying star of the Sol system.".
 Understand "particles" as somethingnew.
 Understand "plasma" as somethingnew.
+
+[CUSTOM DESC/PICKUP]
+Rule for writing a paragraph about somethingnew:
+	say "Particles from the solar wind wash over and around your body as you float here.".
+
 [TODO: Change name to solar plasma]
 [TODO: Cutscenes when the player picks up a plot item]
 
@@ -97,7 +102,7 @@ Section 4 - Something Blue (Cherenkov Emitter)
 
 [CHERENKOV EMITTER - Something blue]
 
-bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains the only remaining sample of actual Terran water in the entire Sol system."
+a bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains the only remaining sample of actual Terran water in the entire Sol system."
 Understand "water" as bottle of clear liquid.
 
 Instead of opening the bottle:
@@ -117,7 +122,7 @@ After inserting the neutrino generator into the bottle:
 	remove the neutrino generator from play;
 	now the player has the somethingblue;
 	Follow the renaming plotitem rules;
-	say "TODO[line break]".
+	say "You drop the particle emitter into the bottle. The slender neutrino beam creates a bright line of blue Cherenkov radiation. For a few moments, or a few hours, you cup the bottle in your hands and stare at the comforting glow, smiling to no one in particular.[line break]".
 
 [FIXME: Possible bug with the items appearing on the ground here?]
 
@@ -146,7 +151,7 @@ Title1 of somethingblue is "submerged".
 Title2 of somethingblue is "emitter".
 The description of a somethingblue is "The steady emission of charged neutrinos interacts with the contents of the bottle, creating electrons and muons. You stare, transfixed, at the beautiful blue glow of Cherenkov radiation.".
 
-[The announce items from multple object lists rule is not listed in any rulebook.]
+[The announce items from multiple object lists rule is not listed in any rulebook.]
 
 [Something old - solar wind]
 [Something new - Free Hydrogen from new Main sequence star]
@@ -238,7 +243,7 @@ When play begins:
 After taking a plotitem:
 	Follow the renaming plotitem rules;
 	If the number of plotitems carried by the player is 4:
-		say "With that, I felt like I'd acquired everything Nina had asked me to bring back.";
+		say "With that, you felt like you'd acquired everything Nina had asked to bring back.";
 	Continue the action;
 
 After dropping a plotitem:

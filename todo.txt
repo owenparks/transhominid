@@ -1,17 +1,16 @@
 ===== Content =====
 
-- Add hinting to bottle of water and neutrino generator that they need to be combined
-    - Allow user to combine/mix/insert/put into/other synonyms
 - Implement reactor room
-    - Implement neutrino generator
 
 - Add docking control room to space so that all things in space are visible from there
 
-- Carry out writing a paragraph about solar wind
-    - Custom pick up messages for plotitems
-    - Custom insert message when submerged emitter is created
+- Custom pick up messages for plotitems
+
+- Description of scenery items in Crew Quarters
 
 - Track down the visibility error we maybe see as part of the test output-- when the player enters the reactor, they should just see the neutrino generator, right?
+
+- about, credits commands
 
 ===== Administrivia =====
 

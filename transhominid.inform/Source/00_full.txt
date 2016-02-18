@@ -16,6 +16,20 @@ Include Basic Screen Effects by Emily Short.
 
 Section - Game System Tweaks
 
+[Prevent container listing]
+Rule for printing the name of a container:
+	Omit contents in listing;
+	continue the action;
+
+[Synonyms for insert]
+[Understand the command "combine" as something new.]
+
+Understand “combine [something] with [something]” as combining it with.
+Combining it with is an action applying to two carried things.
+
+Carry out combining it with:
+		try inserting the noun into the second noun.
+
 [Custom Parser Error Message]
 The parser error internal rule response (A) is
 	"You aren't sure how to do that.".
@@ -80,12 +94,26 @@ The description of the player is "Going corporeal isn't something you bother wit
 Understand "belly button" as yourself.
 Understand "body" as yourself.
 Understand "ears" as yourself.
+Understand "earlobes" as yourself.
 Understand "eyes" as yourself.
 Understand "fingers" as yourself.
+Understand "finger" as yourself.
+Understand "thumb" as yourself.
+Understand "thumbs" as yourself.
 Understand "feet" as yourself.
 Understand "hands" as yourself.
 Understand "nose" as yourself.
 Understand "toes" as yourself.
+Understand "genitals" as yourself.
+Understand "penis" as yourself.
+Understand "vagina" as yourself.
+Understand "testicles" as yourself.
+Understand "breasts" as yourself.
+Understand "boobs" as yourself.
+Understand "scrotum" as yourself.
+Understand "testes" as yourself.
+
+Clothes are part of the player. The description is "You aren't wearing any.".
 
 Chapter 5 - Space
 
@@ -96,12 +124,7 @@ Space is a region.
 
 [TODO: create region for scenery that is space]
 
-[TODO: Carry out singing]
 [TODO: Carry out hints]
-
-Section 3 - Docking Control Room
-
-Docking Control Room is a room. It is north of the Hangar Bay.
 
 Main Lobby is a room. It is south of the Hangar Bay.
 The description of Main Lobby is "".
