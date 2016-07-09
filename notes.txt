@@ -1,4 +1,4 @@
-
+asdf
 move the player to the Antechamber, without printing a room description.
 
 Is the following still true:
