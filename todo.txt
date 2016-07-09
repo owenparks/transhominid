@@ -1,12 +1,23 @@
 ===== Content =====
 
+- Integrate opening description, remove FIXME
+
+- Multiple rooms:
+    - x space
+- Lagrange Point
+    - x hangar
+- Hangar Bay
+    - x floor
 - Implement reactor room
+    - x array
+- Implement main lobby
 
 - Add docking control room to space so that all things in space are visible from there
 
 - Custom pick up messages for plotitems
 
 - Description of scenery items in Crew Quarters
+- Description of reactor/array in reactor room
 
 - Track down the visibility error we maybe see as part of the test output-- when the player enters the reactor, they should just see the neutrino generator, right?
 
