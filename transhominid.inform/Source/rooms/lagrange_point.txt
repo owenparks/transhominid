@@ -1,7 +1,7 @@
 
 Section 1 - Station Exterior
 
-Lagrange Point is a room. The description is "This is where Nina had said to go, a mining station at the the Sun-Jupiter Lagrange point. The Preserver Collective had done an impressive job with their restoration, though it doesn't look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, held pristinely in a stasis field.[paragraph break]The stars look so unfamiliar this many light-years from home, you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station.".
+Lagrange Point is a room. The description is "This is where Nina had said to go, a mining station at the the Sun-Jupiter Lagrange point. You admire the restoration, the Preserver Collective had clearly done an impressive job. It doesn't look like anyone ever bothers to visit. The hulking metal structure was once a busy ore processing hub, but now is nothing more than an abandoned museum, held pristinely in a stasis field.[paragraph break]The stars look unfamiliar this many light-years from home, and you have to take a moment to reorient yourself to the Milky Way's magnetic north.[paragraph break]To the east, you see a large hangar bay leading to the interior of the station.".
 
 The player is in the Lagrange Point.
 Somethingnew is in the Lagrange Point.

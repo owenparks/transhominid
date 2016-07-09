@@ -1,0 +1,17 @@
+
+[ABOUT/CREDITS command]
+Understand the command "credits" as something new.
+Asking for credits is an action out of world.
+Understand "credits" as asking for credits.
+Understand "about" as asking for credits.
+Carry out asking for credits:
+  Say "[bold type][story title][roman type][line break][story headline][paragraph break]Words by [story author] (email: FIXME) [line break]Music by Casey Yates (email: FIXME)".
+
+[Redirect HELP/HINT command]
+Understand the command "hint" as something new.
+Asking for hints is an action applying to nothing.
+Understand "hint" as asking for hints.
+Understand "hints" as asking for hints.
+Understand "help" as asking for hints.
+Instead of asking for hints:
+  Try taking inventory;

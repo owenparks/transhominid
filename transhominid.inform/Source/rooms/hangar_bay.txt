@@ -1,0 +1,29 @@
+
+
+Section 2 - Hangar Bay
+
+Hangar Bay is a room. It is east of the Lagrange Point. The description is "The first thing you notice about the hangar bay is that the metal floor is uncomfortably cold. Clearly, it hadn't been designed for people to walk in barefoot. A wall panel displays a status readout.[paragraph break]The hangar bay doors are open to the west. Outside, you can see the vacuum of space extending in every direction.".
+
+The hangarroom is scenery in the Hangar Bay.
+Understand "Hangar Bay" as hangarroom.
+Understand "hangar" as hangarroom.
+
+Instead of examining the hangarroom:
+  try looking.
+
+Instead of going outside in the Hangar Bay:
+  Try going west.
+
+The wall panel is scenery in the Hangar Bay. The description is "You look at the black glass panel and read the glowing blue numbers on it. Everything looks exactly the way it must have on T-Day. Artificial gravity is still on, station life support is maintaining a 3:1 nitrogen/oxygen mixture for your body to breathe, and all internal compartments are pressurized to 101.3 kPa.".
+Understand "glass panel" as wall panel.
+Understand "glass" as wall panel.
+Understand "status" as wall panel.
+Understand "readout" as wall panel.
+
+The floor is scenery in the Hangar Bay. The description is "FIXME".
+The ceiling is scenery in the Hangar Bay.
+The walls are scenery in the Hangar Bay.
+
+the bay doors are scenery in the Hangar Bay.
+Understand "hangar bay doors" as bay doors.
+Understand "doors"  as bay doors.

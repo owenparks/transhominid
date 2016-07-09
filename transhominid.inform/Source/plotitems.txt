@@ -95,7 +95,7 @@ understand the Title3 property as describing a plaque.
 understand the Title4 property as describing a plaque.
 
 [DESCRIPTION]
-Somethingborrowed is a plaque. The description is "A smooth, shiny shard of black rock that glitters in the starlight. Some words are inscribed into its surface:[paragraph break][tab][tab]'To my dearest Ninotchka, I shall love you forever and a day'.[paragraph break]You stare at the words for a long time, wondering how you never realized, never asked about anything like this. You feel like you're intruding on some long gone moment of her life, like you're rifling through a photo album without permission. Had she meant you to find this? Was this part of the reason she'd sent you here? You make up your mind not to ask about it. Maybe it was better this way, to let her have these secrets as a parent than have to face a part of her past in front of a child. It was silly to have only thought of her as s mother, as though she'd never had a life outside of you and the other fledglings.[paragraph break]You feel a ripple travel over your skin from shoulders to fingertips, and look down at your arm to see goosebumps."
+Somethingborrowed is a plaque. The description is "A smooth, shiny shard of black rock that glitters in the starlight. Some words are inscribed into its surface:[paragraph break][tab][tab]'To my dearest Ninotchka, I shall love you forever and a day'.[paragraph break]You stare at the words for a long time, wondering how you never realized, never asked about anything like this. You feel like you're intruding on some long gone moment of her life, like you're rifling through a photo album without permission. Had she meant you to find this? Was this part of the reason she'd sent you here? You make up your mind not to ask about it. Maybe it's better this way, to let her have these secrets as a parent than have to face part of her past in front of a child. It was silly to have only thought of her as a mother, as though she'd never had a life outside of you and the other fledglings.[paragraph break]You feel a ripple travel over your skin from shoulders to fingertips, and look down at your arm to see goosebumps."
 Somethingborrowed is in the Crew Quarters.
 
 Section 4 - Something Blue (Cherenkov Emitter)
@@ -127,6 +127,9 @@ After inserting the neutrino generator into the bottle:
 [FIXME: Possible bug with the items appearing on the ground here?]
 
 neutrino generator is a thing. The description is "A primitive emitter for generating a neutrino beam used to regulate cold fusion reactors typical of this era. Even decoupled from the array, it continues to pulse out bursts of neutrinos. This one must have dropped from the reactor assembly prior to T-Day. You've never held one before, and always imagined it would be much heavier.[paragraph break]The rate of neutrino flow is high enough to create tiny flecks of light in the vitreous humour in your eyes. You wonder what kind of glow it would make if you dropped it in a larger quantity of water.".
+
+Rule for writing a paragraph about neutrino generator:
+	say "A tiny neutrino generator lies on the floor, having dislodged from the main reactor array."
 
 An emitter is a kind of plotitem.  A emitter is always portable.
 A emitter has some indexed text called Title1.
