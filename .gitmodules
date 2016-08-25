@@ -1,0 +1,6 @@
+[submodule "glulxe"]
+	path = glulxe
+	url = https://github.com/erkyrath/glulxe
+[submodule "interpreter/glulxe"]
+	path = interpreter/glulxe
+	url = https://github.com/erkyrath/glulxe

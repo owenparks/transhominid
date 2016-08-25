@@ -7,6 +7,11 @@ ifeq ($(UNAME), Darwin)
 	I7_COMPILER = ./i7.osx
 	I7_EXTENSION_DIR = ~/Library/Inform/Extensions/
 endif
+#Linux
+ifeq ($(UNAME), Linux)
+	I7_COMPILER = /usr/local/bin/i7
+	I7_EXTENSION_DIR = /usr/local/share/inform7/data/Extensions/
+endif
 
 # Needed because these targets are not actual files
 .PHONY: clean cleanstory interpreter extensions story i7compile critpathtest all
@@ -29,7 +34,7 @@ extensions:
 
 story: cleanstory
 	-rm transhominid.inform/Source/story.ni
-	find transhominid.inform/Source/ -iname '*.txt' | xargs cat > transhominid.inform/Source/story.ni
+	find transhominid.inform/Source/ -iname '*.txt' | sort | xargs cat > transhominid.inform/Source/story.ni
 
 .PHONY: i7compile
 i7compile:
