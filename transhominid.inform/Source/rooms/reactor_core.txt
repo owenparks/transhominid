@@ -3,7 +3,7 @@ Section 3 - Reactor Core
 
 Core is a room. It is below the elevator shaft.
 The printed name of Core is "Reactor Core".
-The description of Core is "You stand on a catwalk, the station's main reactor towers above you, a nearly spherical space surrounded by tens of thousands of neutrino emitters. You see tiny gaps here and there in the reactor wall where emitters are missing and the polished black metal wall is visible.".
+The description of Core is "You stand on a catwalk, the station's main reactor towers above you, a nearly spherical space surrounded by tens of thousands of neutrino emitters. You see tiny gaps here and there in the reactor wall where emitters are missing, and the polished black metal wall is visible.".
 
 reactor is scenery in the Core. The description is "If you'd paid more attention in the physics classes Nina insisted all her fledglings take, you might recognize the model, or at least the type of reactor.".
 Understand "array" as reactor.

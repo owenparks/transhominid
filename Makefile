@@ -14,7 +14,7 @@ ifeq ($(UNAME), Linux)
 endif
 
 # Needed because these targets are not actual files
-.PHONY: clean cleanstory interpreter extensions story i7compile critpathtest all
+.PHONY: clean cleanstory interpreter extensions story i7compile i7release critpathtest all
 .DEFAULT_GOAL := all
 
 clean: cleanstory
@@ -40,8 +40,12 @@ story: cleanstory
 i7compile:
 	$(I7_COMPILER) -c $(PROJECT_NAME).inform 
 
+.PHONY: i7release
+i7release:
+	$(I7_COMPILER) -r $(PROJECT_NAME).inform 
+
 critpathtest: i7compile
 	py.test tests/test.py
 
-all: interpreter extensions story i7compile critpathtest
+all: interpreter extensions story i7compile i7release critpathtest
 

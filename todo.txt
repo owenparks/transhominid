@@ -1,5 +1,12 @@
 ===== Content =====
 
+- Check new seamless wav and make sure it loops properly
+    - Generate new template for finished webpage
+        - bufferwindowin glkote.css controls the font of the finished gameplay product
+    - Automatically modify compiled webpage as part of build process
+    - Test Quixe on mobile
+
+
 - Integrate opening description, remove FIXME
 
 - Multiple rooms:
