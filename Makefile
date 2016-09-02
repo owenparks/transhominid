@@ -43,6 +43,13 @@ i7compile:
 .PHONY: i7release
 i7release:
 	$(I7_COMPILER) -r $(PROJECT_NAME).inform 
+	cp $(PROJECT_NAME).materials/overlay/interpreter/glkote.css $(PROJECT_NAME).materials/Release/interpreter/glkote.css
+	cp $(PROJECT_NAME).materials/fonts/Ubuntu-B.ttf $(PROJECT_NAME).materials/Release/
+	cp $(PROJECT_NAME).materials/fonts/Ubuntu-B.ttf $(PROJECT_NAME).materials/Release/interpreter/
+	cp $(PROJECT_NAME).materials/fonts/Cabin-Medium.otf $(PROJECT_NAME).materials/Release/
+	cp $(PROJECT_NAME).materials/fonts/Cabin-Medium.otf $(PROJECT_NAME).materials/Release/interpreter/
+	#(cd $(PROJECT_NAME).materials && python buildfont.py)
+	cp -r $(PROJECT_NAME).materials /media/sf_Downloads/
 
 critpathtest: i7compile
 	py.test tests/test.py

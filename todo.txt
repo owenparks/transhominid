@@ -5,7 +5,9 @@
         - bufferwindowin glkote.css controls the font of the finished gameplay product
     - Automatically modify compiled webpage as part of build process
     - Test Quixe on mobile
-
+- Decide on font: Cabin-Regular or Medium?
+    - Title Font: Ubuntu
+    - In CSS, make input text look the same as game body text
 
 - Integrate opening description, remove FIXME
 
