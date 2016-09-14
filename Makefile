@@ -43,6 +43,7 @@ i7compile:
 .PHONY: i7release
 i7release:
 	$(I7_COMPILER) -r $(PROJECT_NAME).inform 
+	cp $(PROJECT_NAME).materials/overlay/style.css $(PROJECT_NAME).materials/Release/style.css
 	cp $(PROJECT_NAME).materials/overlay/interpreter/glkote.css $(PROJECT_NAME).materials/Release/interpreter/glkote.css
 	cp $(PROJECT_NAME).materials/fonts/Ubuntu-B.ttf $(PROJECT_NAME).materials/Release/
 	cp $(PROJECT_NAME).materials/fonts/Ubuntu-B.ttf $(PROJECT_NAME).materials/Release/interpreter/
