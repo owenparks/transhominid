@@ -10,7 +10,7 @@ endif
 #Linux
 ifeq ($(UNAME), Linux)
 	I7_COMPILER = /usr/local/bin/i7
-	I7_EXTENSION_DIR = /usr/local/share/inform7/data/Extensions/
+	I7_EXTENSION_DIR = ~/Inform/Extensions/
 endif
 
 # Needed because these targets are not actual files
@@ -50,7 +50,7 @@ i7release:
 	cp $(PROJECT_NAME).materials/fonts/Cabin-Medium.otf $(PROJECT_NAME).materials/Release/
 	cp $(PROJECT_NAME).materials/fonts/Cabin-Medium.otf $(PROJECT_NAME).materials/Release/interpreter/
 	#(cd $(PROJECT_NAME).materials && python buildfont.py)
-	cp -r $(PROJECT_NAME).materials /media/sf_Downloads/
+	#cp -r $(PROJECT_NAME).materials /media/sf_Downloads/
 
 critpathtest: i7compile
 	py.test tests/test.py
