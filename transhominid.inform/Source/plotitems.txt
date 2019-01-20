@@ -102,7 +102,7 @@ Section 4 - Something Blue (Cherenkov Emitter)
 
 [CHERENKOV EMITTER - Something blue]
 
-a bottle of clear liquid is a thing. It is a container. The description is "Hydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains the only remaining sample of actual Terran water in the entire Sol system."
+a bottle of clear liquid is a thing. It is a container. The description is "Dihydrogen oxide. How very curious. You don't ever remember having encountered it in its liquid state. The bottle is made from plastic, and the liquid inside was distilled to be pure. The bottle is elaborate and sleek, unlike the plain containers for the miners' provisions. You remember something Nina had said about spacers giving each other souvenirs from back home as gifts.[paragraph break]You can't tell where it was bottled, but who knows? It's possible this bottle contains the only remaining sample of actual Terran water in the entire Sol system."
 Understand "water" as bottle of clear liquid.
 
 Instead of opening the bottle:
